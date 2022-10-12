@@ -33,7 +33,6 @@ header{
 
 main{
     height: calc( 100vh - 100px);
-    background-color: grey;
 }
 
 /* sidebar */
@@ -46,6 +45,10 @@ main{
 }
 
 /* main section */
+
+#ms-main-section{
+    height: 100%;
+}
 
 /* blue section */
 
