@@ -4,11 +4,22 @@
 
 header{
     height: 100px;
-    width: 100%;
     background-color: #F8F9FA;
 }
 
 main{
     height: calc( 100vh - 100px);
     background-color: grey;
+}
+
+.ms-logo-width1{
+    width: 150px;
+}
+
+.ms-logo-width2{
+    width: 50px;
+}
+
+.fa-bell{
+    color: goldenrod;
 }
