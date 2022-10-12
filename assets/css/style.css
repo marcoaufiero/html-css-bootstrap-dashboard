@@ -2,14 +2,19 @@
     height: 100vh;
 }
 
+.row {
+    --bs-gutter-x: 0;
+}
+
+/* utility */
+
+
+
+/* header */
+
 header{
     height: 100px;
     background-color: #F8F9FA;
-}
-
-main{
-    height: calc( 100vh - 100px);
-    background-color: grey;
 }
 
 .ms-logo-width1{
@@ -22,4 +27,18 @@ main{
 
 .fa-bell{
     color: goldenrod;
+}
+
+/* main */
+
+main{
+    height: calc( 100vh - 100px);
+    background-color: grey;
+}
+
+#ms-sidebar{
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #051E34;
 }
