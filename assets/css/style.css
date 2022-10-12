@@ -36,9 +36,21 @@ main{
     background-color: grey;
 }
 
+/* sidebar */
+
 #ms-sidebar{
     background-image: url(../img/sidebar-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #051E34;
+}
+
+/* main section */
+
+#ms-blue-section{
+    background-color: #1A73E8;
+}
+
+.ms-pill-bg-color{
+    background-color: #155CBA;
 }
