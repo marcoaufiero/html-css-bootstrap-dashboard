@@ -47,6 +47,8 @@ main{
 
 /* main section */
 
+/* blue section */
+
 #ms-blue-section{
     background-color: #1A73E8;
 }
@@ -54,3 +56,6 @@ main{
 .ms-pill-bg-color{
     background-color: #155CBA;
 }
+
+/* card section */
+
