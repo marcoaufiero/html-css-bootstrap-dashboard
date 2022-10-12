@@ -1,0 +1,14 @@
+.ms-container-100{
+    height: 100vh;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #F8F9FA;
+}
+
+main{
+    height: calc( 100vh - 100px);
+    background-color: grey;
+}
