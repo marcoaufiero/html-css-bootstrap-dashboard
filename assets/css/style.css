@@ -79,6 +79,11 @@ main{
 
 /* offcanvas */
 
+.form-check {
+    padding-left: 0;
+}
+
+
 @media screen and (max-width:992px){
     .offcanvas.offcanvas-end{
         width: 100%;

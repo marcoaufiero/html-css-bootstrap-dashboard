@@ -137,11 +137,58 @@
 
                                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                             <div class="offcanvas-header">
-                                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Form</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                             </div>
                                             <div class="offcanvas-body">
-                                                ...
+                                                
+                                                <form class="row g-3">
+                                                    <div class="col-md-6 pe-md-2">
+                                                        <label for="inputEmail4" class="form-label fs-6">Email</label>
+                                                        <input type="email" class="form-control" id="inputEmail4">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label for="inputPassword4" class="form-label fs-6">Password</label>
+                                                        <input type="password" class="form-control" id="inputPassword4">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label for="inputAddress" class="form-label fs-6">Indirizzo</label>
+                                                        <input type="text" class="form-control" id="inputAddress" placeholder="">
+                                                    </div>
+                                                    <div class="col-md-6 pe-md-2">
+                                                        <label for="inputCity" class="form-label fs-6">Città</label>
+                                                        <input type="text" class="form-control" id="inputCity">
+                                                    </div>
+                                                    <div class="col-md-4 pe-md-2">
+                                                        <label for="inputState" class="form-label fs-6">Stato</label>
+                                                        <select id="inputState" class="form-select">
+                                                            <option selected>Scegli...</option>
+                                                            <option>Italia</option>
+                                                            <option>Stati Uniti</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <label for="inputZip" class="form-label fs-6">CAP</label>
+                                                        <input type="text" class="form-control" id="inputZip">
+                                                    </div>
+                                                    <div class="col-12 my-4">
+                                                        <label for="inputFile" class="form-label fs-6">Foto</label>
+                                                        <input type="file" class="form-control" id="inputGroupFile02">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="form-check">
+                                                            <input type="checkbox" id="gridCheck">
+                                                            <label class="form-check-label fs-6" for="gridCheck">
+                                                                Seleziona per proseguire
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <button type="submit" class="btn btn-primary">Salva</button>
+                                                        <button type="submit" class="btn btn-warning">Svuota</button>
+                                                    </div>
+                                                </form>
+                                            
                                             </div>
                                         </div>
 
