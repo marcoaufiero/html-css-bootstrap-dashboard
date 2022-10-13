@@ -77,5 +77,16 @@ main{
     background-color: #155CBA;
 }
 
-/* card section */
+/* offcanvas */
 
+@media screen and (max-width:992px){
+    .offcanvas.offcanvas-end{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:993px){
+    .offcanvas.offcanvas-end{
+        width: 75%;
+    }
+}
