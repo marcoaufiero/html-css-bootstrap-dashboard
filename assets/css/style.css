@@ -95,3 +95,10 @@ main{
         width: 75%;
     }
 }
+
+/* hover */
+
+.ms-sidebar-btn:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 1px white;
+}
